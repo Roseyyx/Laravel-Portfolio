@@ -10,6 +10,7 @@
     </head>
     <body class="antialiased">
         <div id="app">
+            <register-component form-route="{{ route("register.create") }}"></register-component>
         </div>
     </body>
 </html>
